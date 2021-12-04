@@ -60,4 +60,6 @@ public class Battleship {
     public String toString() {
         return  "X: " + x1 + " " + y1 + "\n" + "Y: " + x2 + " " + y2;
     }
+
+    //qq
 }
