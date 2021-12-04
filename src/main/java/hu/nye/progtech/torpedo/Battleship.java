@@ -61,5 +61,5 @@ public class Battleship {
         return  "X: " + x1 + " " + y1 + "\n" + "Y: " + x2 + " " + y2;
     }
 
-    //qq
+    //qqq
 }
