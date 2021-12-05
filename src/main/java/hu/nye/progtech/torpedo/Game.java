@@ -12,7 +12,7 @@ public class Game {
         for(int i=1;i<=5;i++){
             Battleship battleship = new Battleship();
             for(int j=1; j<=1; j++){
-                System.out.println("A 2 egyseg meretu hajo koordinatai (pl A1 B1)\n");
+                System.out.println("A hajo koordinatai: (pl A1 B1)\n");
                 var split = scanner.nextLine().split(" ");
                 var firstCO = CoordinateParser(split[0]);
                 var secondCO = CoordinateParser(split[1]);
