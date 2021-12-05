@@ -13,7 +13,6 @@ public class Game {
             Battleship battleship = new Battleship();
             for(int j=1; j<=1; j++){
                 System.out.println("A 2 egyseg meretu hajo koordinatai (pl A1 B1)\n");
-
                 var split = scanner.nextLine().split(" ");
                 var firstCO = CoordinateParser(split[0]);
                 var secondCO = CoordinateParser(split[1]);
@@ -23,7 +22,6 @@ public class Game {
                 battleship.setY2(Integer.parseInt(String.valueOf(secondCO.charAt(1))));
                 map[battleship.getY1()][battleship.getX1()] = "O";
                 map[battleship.getY2()][battleship.getX2()] = "O";
-
             }
             BattleMap.printMap(map);
         }
