@@ -27,37 +27,37 @@ public class Main {
             BattleMap.printMap(map);
         }
     }
-    public static String CoordinateParser(String CO){
-        switch (CO.charAt(0)){
+    public static String CoordinateParser(String CP){
+        switch (CP.charAt(0)){
             case 'A' : {
-                return new String("0" + CO.charAt(1));
+                return new String("0" + CP.charAt(1));
             }
             case 'B' : {
-                return new String("1" + CO.charAt(1));
+                return new String("1" + CP.charAt(1));
             }
             case 'C' : {
-                return new String("2" + CO.charAt(1));
+                return new String("2" + CP.charAt(1));
             }
             case 'D' : {
-                return new String("3" + CO.charAt(1));
+                return new String("3" + CP.charAt(1));
             }
             case 'E' : {
-                return new String("4" + CO.charAt(1));
+                return new String("4" + CP.charAt(1));
             }
             case 'F' : {
-                return new String("5" + CO.charAt(1));
+                return new String("5" + CP.charAt(1));
             }
             case 'G' : {
-                return new String("6" + CO.charAt(1));
+                return new String("6" + CP.charAt(1));
             }
             case 'H' : {
-                return new String("7" + CO.charAt(1));
+                return new String("7" + CP.charAt(1));
             }
             case 'I' : {
-                return new String("8" + CO.charAt(1));
+                return new String("8" + CP.charAt(1));
             }
             case 'J' : {
-                return new String("9" + CO.charAt(1));
+                return new String("9" + CP.charAt(1));
             }
             default : {
                 return "00";
