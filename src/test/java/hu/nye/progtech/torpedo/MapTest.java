@@ -13,7 +13,7 @@ public class MapTest{
 
         char[][] BattleMap = new char[10][10];
 
-        Assertions.assert;
+        //Assertions.assert;
 
     }
 
