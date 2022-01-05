@@ -12,4 +12,6 @@ public class Player {
     public String toString() {
         return "Player name: " + this.name + "\t Point:" + this.point + "\n";
     }
-    }
+
+
+}
